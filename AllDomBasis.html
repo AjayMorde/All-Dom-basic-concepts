@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>list-1</li>
+        <l id="list 2">list-1</li>
+        <li>list-2</li>
+        <li class="list ">list-3</li>
+        <li>list-4</li>
+        <li class="list">list-5</li>
+        <li>list-6</li>
+        <li class="list">list-7</li>
+    </ul>
+
+
+
+
+    <h1 id="dom">DOM</h1>
+
+
+
+
+    <h1>heading-1</h1>
+    <p>i am Ajay</p>
+    <h1>heading-2</h1>
+    <p>dgree-B-tech</p>
+    <h1>heading-3</h1>
+    <p>Geekster internship</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // select element by id........................................................................................
+
+        let elm=document.getElementById("dom")
+        elm.style.backgroundColor="red"
+        ele.style.fontsize="80px"
+        elm.innerHTML="<h1>Hellow<h1>"
+            // by class name.........................................................................................................
+
+
+            let elm2=document.getElementsByClassName("list")
+            for(let i=0;i<elm2.length;i++){
+                elm2[i].innerHTML="<p>change<p>";
+            }
+
+            // select element by tag name...................................................................................................
+            let tag=document.getElementsByTagName("h1")
+            for(let i=0;i<tag.length;i++){
+                tag[i].innerHTML="heading";
+            }
+           
+
+    </script>
+</body>
+</html>

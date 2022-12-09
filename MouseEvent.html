@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+             #box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid  black;
+            background-color: red;
+            
+        }
+    
+             #box2{
+            width: 150px;
+            height: 150px;
+            border: 2px solid  black;
+            background-color: yellow;
+            
+         }
+    </style>
+</head>
+<body>
+    <div id="box" onclick="fun()"></div>
+    <div id="box2"></div>
+    
+    
+        <script>
+            function fun(){
+            alert("mouse clicked");
+        }
+        let a=document.getElementById("box2");
+        a.addEventListener('keydown',check)
+        function check(e){
+            console.log(e.key)
+        }
+           
+        </script>
+    
+</body>
+</html>
